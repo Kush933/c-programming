@@ -31,7 +31,7 @@ void create(int n){
 void display(){
   struct node *temp = head;
 
-  if(temp==NULL){
+  if(head==NULL){
     printf("List is Empty\n");
     return;
   }
